@@ -1,0 +1,28 @@
+@keyframes welcome {
+ 
+        0%{
+            transform: translateY(-100vh);
+        }
+        50%{
+            
+            transform:  translateY(0vh);
+        }
+      75%{
+            transform: translatex(-100vw);
+            /* display: none; */
+            /* animation-fill-mode:forwards  ; */
+            /* background-color: blue; */
+            z-index: 0;
+        }
+
+        100%{
+            
+            /* background-color: black; */
+               /* display: none; */
+            /* animation-play-state: paused; */
+            /* display: none; */
+            /* background-color: red; */
+
+        }
+   
+}
