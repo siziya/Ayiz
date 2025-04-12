@@ -26,3 +26,17 @@
         }
    
 }
+@keyframes welcome {
+        0%{ 
+            z-index: 1;
+            display:block;
+            transform: translateY(-100vh);
+        }
+        50%{z-index: 1;
+            display: block;
+            transform: translateY(0vh);}
+
+        100%{z-index: 1;
+            display: block;
+            transform: translateX(-100vw);}
+        }
