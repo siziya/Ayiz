@@ -29,8 +29,8 @@ header{
     justify-content: space-between;
     img{
      
-        height: 15%;
-        width:20%;
+        height: 10%;
+        width:15%;
     }
     div{
         /* width:60%; */
@@ -72,6 +72,7 @@ body{
 background-color:beige;
 }
 #Welcome{
+    display: none;
     z-index: 0;
     height:98vh;
     width:99vw;
